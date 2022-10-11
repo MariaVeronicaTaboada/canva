@@ -179,6 +179,14 @@ a:visited {
 }
 
 @media screen and (max-width: 375px) {
+  body {
+    overflow: visible;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    overflow: visible;
+  }
+
   .tmv {
     font-size: 2.25em;
     margin-left: 15px;
@@ -189,10 +197,18 @@ a:visited {
     width: 250px;
     height: 220px;
     margin-left: 10px;
+    grid-row: 2 / 3;
+  }
+
+  p {
+    grid-row: 3 / 4;
+    font-size: 1.3em;
+    margin: 30px;
   }
 
   .bottom {
     font-size: 0.4em;
+    grid-row: 4 / 5;
   }
 }
 
