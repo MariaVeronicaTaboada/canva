@@ -133,3 +133,97 @@ body {
   width: 160px;
   margin-left: 170px;
 }
+
+@media screen and (max-width: 1024px) {
+  .nica1 {
+    margin-left: 100px;
+  }
+  .ascp {
+    margin-left: 110px;
+  }
+  .smsp {
+    margin-left: 110px;
+  }
+  .pcesp {
+    margin-left: 105px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .know,
+  .edu {
+    font-size: 2em;
+  }
+  .col,
+  .hs,
+  .elem {
+    font-size: 1.8em;
+  }
+  .me,
+  .asc,
+  .sms,
+  .pces {
+    font-size: 1.3em;
+  }
+  .nica1 {
+    margin-left: 50px;
+  }
+  .ascp {
+    margin-left: 60px;
+  }
+  .smsp {
+    margin-left: 60px;
+  }
+  .pcesp {
+    margin-left: 55px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  body {
+    background: linear-gradient(90deg, #644735 0 25%, #c8a28f 25% 100%);
+    grid-template-rows: 95px 200px 95px 30px 200px 30px 200px 30px 200px;
+  }
+  .know,
+  .edu {
+    font-size: 20px;
+  }
+  .col,
+  .hs,
+  .elem {
+    font-size: 18px;
+  }
+  .me,
+  .asc,
+  .sms,
+  .pces {
+    font-size: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .nica1 {
+    margin-top: 25px;
+    margin-left: 15px;
+    width: 130px;
+    height: 130px;
+  }
+  .ascp {
+    margin-top: 20px;
+    margin-left: 19px;
+    width: 130px;
+    height: 130px;
+    grid-row: 5 / 6;
+  }
+  .smsp {
+    margin-top: 5px;
+    margin-left: 21px;
+    width: 130px;
+    height: 130px;
+    grid-row: 7 / 8;
+  }
+  .pcesp {
+    margin-left: 15px;
+    width: 140px;
+    height: 140px;
+  }
+}
